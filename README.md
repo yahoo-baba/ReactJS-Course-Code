@@ -1,4 +1,4 @@
-# ReactJS Course Cod
+# ReactJS Course Code
 
 Welcome to the ultimate **ReactJs Full tutorial Course**, where you'll learn everything from the basics to advanced concepts! 🚀 Whether you're a beginner looking to get started with frontend development or an experienced developer aiming to master ReactJS.
 
