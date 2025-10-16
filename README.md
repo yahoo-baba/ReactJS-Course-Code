@@ -5,7 +5,7 @@ Welcome to the ultimate **ReactJs Full tutorial Course**, where you'll learn eve
 
 ## Youtube Video link
 
-[ReactJS Course Video Playlist](https://www.youtube.com/playlist?list=PL0b6OzIxLPbx0ZTmVQgsB4T5KWXXxrZ6C)
+[ReactJS Course Video Playlist](https://www.youtube.com/playlist?list=PL0b6OzIxLPbzGtrDFaF6uoC33cPNHDmeV)
 
 ## Follow Us
 
