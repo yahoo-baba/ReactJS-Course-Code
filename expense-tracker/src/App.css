@@ -1,0 +1,49 @@
+.app-container {
+		  max-width: 500px;
+		  margin: 40px;
+		  background: #f8f9fa;
+		  padding: 20px;
+		  border-radius: 12px;
+		  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+		}
+
+		h1 {
+		  text-align: center;
+		  margin-bottom: 20px;
+		}
+
+		.expense-form {
+		  display: flex;
+		  gap: 10px;
+		  margin-bottom: 20px;
+		}
+
+		.expense-form input {
+		  flex: 1;
+		  padding: 8px;
+		}
+
+		.expense-form button {
+		  padding: 8px 12px;
+		  cursor: pointer;
+		}
+
+		.expense-list {
+		  display: flex;
+		  flex-direction: column;
+		  gap: 10px;
+		}
+
+		.expense-item {
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		  background: white;
+		  padding: 10px;
+		  border-radius: 8px;
+		}
+
+		.no-expense {
+		  text-align: center;
+		  color: #888;
+		}
