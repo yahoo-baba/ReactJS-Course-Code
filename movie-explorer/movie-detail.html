@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Movie Explorer</title>
+	<style>
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #111;
+		color: #fff;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		background: #222;
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+		padding: 1rem 2rem;
+	}
+
+	.navbar a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.logo {
+		color: #fff;
+	}
+
+	.home form {
+		display: flex;
+		justify-content: center;
+		margin: 1rem;
+	}
+
+	.searchInput {
+		padding: 10px;
+	}
+
+	.movie-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.movie-card {
+		background: #222;
+		padding: 1rem;
+		border-radius: 8px;
+		width: 200px;
+		text-align: center;
+	}
+
+	.movie-card img {
+		width: 100%;
+	}
+
+	.movie-card a {
+		color: #fff;
+	}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar">
+		<a class="logo" href="/" data-discover="true">
+			<h2>🎬 Movie Explorer</h2>
+		</a>
+		<a href="/" data-discover="true">Home</a>
+	</nav>
+	<div class="movie-detail">
+		<h2>Avengers: Infinity War</h2>
+		<img alt="Avengers: Infinity War" src="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg">
+		<p><strong>Genre:</strong> Action, Adventure, Sci-Fi</p>
+		<p><strong>Released:</strong> 27 Apr 2018</p>
+		<p><strong>Plot:</strong> The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>
+	</div>
+</body>
+
+</html>

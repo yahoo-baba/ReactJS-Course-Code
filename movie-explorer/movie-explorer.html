@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Movie Explorer</title>
+	<style>
+		body {
+		font-family: Arial, sans-serif;
+		background-color: #111;
+		color: #fff;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		background: #222;
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+		padding: 1rem 2rem;
+	}
+
+	.navbar a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.logo {
+		color: #fff;
+	}
+
+	.home form {
+		display: flex;
+		justify-content: center;
+		margin: 1rem;
+	}
+
+	.searchInput {
+		padding: 10px;
+	}
+
+	.movie-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.movie-card {
+		background: #222;
+		padding: 1rem;
+		border-radius: 8px;
+		width: 200px;
+		text-align: center;
+	}
+
+	.movie-card img {
+		width: 100%;
+	}
+
+	.movie-card a {
+		color: #fff;
+	}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar">
+		<a class="logo" href="/" data-discover="true">
+			<h2>🎬 Movie Explorer</h2>
+		</a>
+		<a href="/" data-discover="true">Home</a>
+	</nav>
+	<div class="home">
+		<form>
+			<input class="searchInput" placeholder="Search for a movie...">
+			<button type="submit">Search 🔎</button>
+		</form>
+		<div class="movie-list">
+			<div class="movie-card">
+				<img alt="The Avengers" src="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX300.jpg">
+				<h3>The Avengers</h3>
+				<p>2012</p>
+				<a href="movie-detail.html" data-discover="true">Details</a>
+			</div>
+			<div class="movie-card">
+				<img alt="The Avengers" src="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX300.jpg">
+				<h3>The Avengers</h3>
+				<p>2012</p>
+				<a href="movie-detail.html" data-discover="true">Details</a>
+			</div>
+			<div class="movie-card">
+				<img alt="The Avengers" src="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX300.jpg">
+				<h3>The Avengers</h3>
+				<p>2012</p>
+				<a href="movie-detail.html" data-discover="true">Details</a>
+			</div>
+		</div>
+</body>
+
+</html>
