@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "question": "React is mainly used for?",
+        "options": [
+            "Styling",
+            "Mobile Apps",
+            "Building UI",
+            "None"
+        ],
+        "answer": "Building UI"
+    },
+    {
+        "id": 2,
+        "question": "Which hook is used for state?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useMemo",
+            "useContext"
+        ],
+        "answer": "useState"
+    }
+]
