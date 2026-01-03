@@ -1,0 +1,10 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error{
+  color: red;
+  margin: 1px 0 3px;
+}
