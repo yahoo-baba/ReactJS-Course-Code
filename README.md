@@ -9,7 +9,7 @@ Welcome to the ultimate **ReactJs Full tutorial Course**, where you'll learn eve
 
 ## Follow Us
 
-[www.yahubaba.com](https://www.yoobaba.com)
+[www.yoobaba.com](https://www.yoobaba.com)
 
 [Youtube Channel](https://www.youtube.com/@yoo-baba)
 
